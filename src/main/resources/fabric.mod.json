@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "metzclient",
+  "version": "${version}",
+  "name": "Metz Client",
+  "description": "A Minecraft utility client with flight, boat fly, base finder and more.",
+  "authors": ["Metz"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.metz.MetzClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
